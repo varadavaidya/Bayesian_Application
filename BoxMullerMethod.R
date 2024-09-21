@@ -3,13 +3,13 @@ n = 1000
 samples1 = rep(NA,n)
 samples2 = rep(NA,n)
 
-for (sim in 1:n) {
+for (k in 1:n) {
   U1 = runif(1)
   U2 = runif(1)
   R = sqrt(-2*log(U1))
   theta = 2*pi*U2
-  samples1[sim] = R*cos(theta)
-  samples2[sim] = R*sin(theta) 
+  samples1[k] = R*cos(theta)
+  samples2[k] = R*sin(theta) 
 }
 
 #compare to rnorm
