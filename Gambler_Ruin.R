@@ -30,7 +30,7 @@ for (x in simulationlist){
 }
 
 number_of_ruins_in_simulation
-
+'''
 LengthOfGame= function(SimList,trials){
   lengthsoftrials=c()
   for (l in 1:trials){
@@ -40,4 +40,4 @@ LengthOfGame= function(SimList,trials){
 }
 
 LengthOfGame(simulationlist,trials)
-
+'''
